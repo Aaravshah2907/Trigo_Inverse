@@ -33,8 +33,7 @@ def arc_cos(var):
 
 
 def arc_tan(var):
-    result = m.atan(var)
-    return result
+    return m.atan(var)
 
 
 if inverse_choice == 1:
