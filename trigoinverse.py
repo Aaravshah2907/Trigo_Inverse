@@ -1,12 +1,9 @@
 import math as m
 
 print("Choose from the following ")
-print("1. arc sin")
-print("2. arc cos")
-print("3. arc tan")
-print("4. arc cot")
-print("5. arc sec")
-print("6. arc cosec")
+print("1. arc sin           2. arc cos")
+print("3. arc tan           4. arc cot")
+print("5. arc sec           6. arc cosec")
 
 inverse_choice = int(input("Enter Choice : "))
 number_choice = float(input("Enter a value  of whose inverse you want to find: "))
@@ -56,6 +53,6 @@ elif inverse_choice == 6:
     calculated_output = arc_sin(1/number_choice)
 else:
     decision = 'Unidentified Function!'
-    calculated_output = "Unidentified Value"
+    calculated_output = "Get a Life!"
 
 print(f"{decision} of {number_choice} is '{calculated_output}'")
