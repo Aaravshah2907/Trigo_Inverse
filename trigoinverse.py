@@ -25,7 +25,7 @@ def arc_sin(var):
 
 def arc_cos(var):
     if var**2 - 1 <= 0:
-        result1 = m.asin(var)
+        result1 = m.acos(var)
     else:
         calc1 = m.log(var + (var**2 - 1)**0.5)
         result1 = ("± (" + str(calc1)+")i")
